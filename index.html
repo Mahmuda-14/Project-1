@@ -45,13 +45,14 @@
       <div class="ml-[156px] mr-[299px] mt-[57px]">
       <img src="./images/2.jpeg" alt="">
     </div>
+    <button class="btn bg-red-500 text-white hover:bg-slate-600 mx-72 -mt-20">Log-Out</button>
 
   </section>
     
 
     <section>
-      <div class="grid sm:grid-rows-2 md:grid-rows-2 lg:grid-cols-2 mx-10 w-auto h-auto md:ml-[62px]">
-        <div class="card w-full h-auto max-w-lg shadow-2xl bg-base-100 ml-16">
+      <div class="grid  lg:grid-cols-3 mx-10 w-auto h-auto">
+        <div class="card w-auto h- max-w-lg shadow-2xl bg-base-100 m-8">
           <div class="card-body">
             <h2>Add Your Work details...</h2>
             <hr>
@@ -82,7 +83,7 @@
 
             <div class="form-control">
               <label class="label">
-                <span class="label-text">Hours-Rat</span>
+                <span class="label-text">Hours-Rate</span>
               </label>
               <input type="text" placeholder="" class="input input-bordered" />
             </div>
@@ -110,37 +111,49 @@
 
         </div>
 
+        <div class="card  w-auto max-w-lg shadow-2xl bg-base-100 m-8">
+          <div class="card-body">
+            <div class="flex flex-row">
+            <h2 class="card-title">Salaries</h2>  
+            <div class="flex ml-44 gap-2">
 
-        <div class="grid grid-rows-2 gap-10 sm:mt-[60px] md:ml-[48px]">
-
-          <div class="card flex-shrink-0 w-full max-w-lg shadow-2xl bg-base-100 md:mt-[100px] md:ml-[]">
-            <div class="card-body">
-              <h2 class="card-title">Salaries</h2>
-              <hr>
-              <ol>
-                <li>1st Month :</li>
-                <li>2nd Month :</li>
-                <li>3rd Month :</li>
-              </ol>
-            </div>
+              <div class="dropdown dropdown-bottom">
+                <label tabindex="0" class="btn m-1"><img src="./images/dots-vertical-rounded-regular-24.png" alt=""></label>
+                <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                  <p class="flex gap-5 m-4"><img class="" src="./images/edit-alt-regular-24.png" alt="">Edit</p>
+                  <p class="flex gap-5 m-4"><img src="./images/trash-solid-24.png">Delete</p>
+                </ul>
+              </div>
+              <!-- <img class="" src="./images/edit-alt-regular-24.png" alt="">
+              <img src="./images/trash-solid-24.png" alt=""> -->
+            </div> 
+            
           </div>
+            <hr>
+            <ol>
+              <li>1st Month :</li>
+              <li>2nd Month :</li>
+              <li>3rd Month :</li>
+            </ol>
+          </div>
+        </div>
 
-          <div class="card flex-shrink-0 w-full max-w-lg shadow-2xl bg-base-100 ">
-            <div class="card-body ">
-              <h2 class="card-title align-middle">Net Salary </h2>
-              <hr>
-              <p>Monthly net salary : $</p>
-              <h2>Total Earnings : $0.00</h2>
-              <h2>Social Tax : $0.00</h2>
-              <h2>Income Tax : $0.00</h2>
-              <h2>Net Salary : $0.00</h2>
-              <h2>Working Days :</h2>
-              <p>Total working Hours : 0 hours</p>
+        <div class="card  w-auto max-w-lg shadow-2xl bg-base-100 m-8">
+          <div class="card-body ">
+            <h2 class="card-title align-middle">Net Salary </h2>
+            
+            <hr>
+            <h2>Monthly net salary : $</h2>
+            <h2>Total Earnings : $0.00</h2>
+            <h2>Social Tax : $0.00</h2>
+            <h2>Income Tax : $0.00</h2>
+            <h2>Net Salary : $0.00</h2>
+            <h2>Working Days :</h2>
+            <p>Total working Hours : 0 hours</p>
 
-            </div>
-            <div class="form-control mt-6">
-              <button class="btn bg-teal-400 mx-20 -mb-5">Reset Dash board</button>
-            </div>
+          </div>
+          <div class="form-control mt-6">
+            <button class="btn bg-teal-400 mx-32 -mb-5">Reset Dash board</button>
           </div>
         </div>
 
