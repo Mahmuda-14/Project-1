@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="grid sm:grid-rows-2 md:grid-rows-2 lg:grid-cols-2 mx-10 lg:my-8  md:ml-[62px]">
+        <div class="card flex-shrink-0 w-full h-auto max-w-lg shadow-2xl bg-base-100 ml-16">
+            <div class="card-body">
+                <h2>Add Your Work details...</h2>
+                <hr>
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text">Employment-type</span>
+                    </label>
+                    <select class="select select-bordered">
+                        <option disabled selected>Pick category</option>
+                        <option>Full-Time</option>
+                        <option>Part-time</option>
+                    </select>
+                </div>
+
+                <div class="form-control">
+                    <span class="label-text">Date</span>
+
+                    <input class="input input-bordered" type="date" id="" name="">
+
+                </div>
+
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text">Hours-Worked</span>
+                    </label>
+                    <input type="text" placeholder="" class="input input-bordered" />
+                </div>
+
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text">Hours-Rat</span>
+                    </label>
+                    <input type="text" placeholder="" class="input input-bordered" />
+                </div>
+
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text">Social-Tax-Rate(%)</span>
+                    </label>
+                    <input type="text" placeholder="" class="input input-bordered" />
+                </div>
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text">Income-Tax-Rate(%)</span>
+                    </label>
+                    <input type="text" placeholder="" class="input input-bordered" />
+                </div>
+                <div>
+                    <p>Don't have an account? <a class="text-blue-500 hover:underline"
+                            href="https://www.freecodecamp.org/">Register Now</a></p>
+                </div>
+
+            </div>
+
+            <button class="btn bg-teal-500 mx-20 -mb-5">Add</button>
+
+        </div>
+
+
+    <div class="grid grid-rows-2 gap-10 sm:mt-[60px] md:ml-[48px]">
+
+        <div class="card flex-shrink-0 w-full max-w-lg shadow-2xl bg-base-100 md:mt-[100px] md:ml-[]">
+            <div class="card-body">
+                <h2 class="card-title">Salaries</h2>
+                <hr>
+                <ol>
+                    <li>1st Month :</li>
+                    <li>2nd Month :</li>
+                    <li>3rd Month :</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="card flex-shrink-0 w-full max-w-lg shadow-2xl bg-base-100 ">
+            <div class="card-body ">
+                <h2 class="card-title align-middle">Net Salary </h2>
+                <hr>
+                <p>Monthly net salary : $</p>
+                <h2>Total Earnings : $0.00</h2>
+                <h2>Social Tax : $0.00</h2>
+                <h2>Income Tax : $0.00</h2>
+                <h2>Net Salary : $0.00</h2>
+                <h2>Working Days :</h2>
+                <p>Total working Hours : 0 hours</p>
+
+            </div>
+            <div class="form-control mt-6">
+                <button class="btn bg-teal-400 mx-20 -mb-5">Reset Dash board</button>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+
+</body>
+
+</html>
